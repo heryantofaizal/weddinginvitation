@@ -58,6 +58,7 @@ body {
 .hero a {
   color: var(--pink);
   background-color: white;
+  box-shadow: var(--shadow);
 }
 
 .hero a:hover {
@@ -72,6 +73,9 @@ body {
   html {
     font-size: 75%;
   }
+  .simply-countdown > .simply-section {
+    padding:60px;
+    }
 }
 
 /* Tablet */
@@ -79,10 +83,20 @@ body {
   html {
     font-size: 65%;
   }
+  .simply-countdown > .simply-section {
+    padding:60px;
+    margin:5px;
+
+    }
 }
 /* Mobile phone */
 @media (max-width: 576px) {
   html {
     font-size: 60%;
   }
+  .simply-countdown > .simply-section {
+    padding: 45px;
+    margin: 3px;
+
+    }
 }
